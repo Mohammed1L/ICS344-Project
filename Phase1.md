@@ -1,0 +1,36 @@
+# ICS344 Project: SSH Attack & Defense (Metasploitable3 + Splunk)
+
+## Group Info
+- Group Number: 6
+- Members:
+  - ALHATHAL, MOHAMMAD MAHER 202021080
+  - ALDAHASH, MOHAMMED KHALED 202156870
+  - ALZAHRANI, BASEL SAEED 202178710
+
+
+---
+
+## Phase 1: Attacking SSH
+![image](https://github.com/user-attachments/assets/d369498e-775c-43a8-b4c5-fd65d749397a)
+![image](https://github.com/user-attachments/assets/58488a31-4a1f-4235-8028-3c944f453563)
+Ping is working 
+![image](https://github.com/user-attachments/assets/44a557f7-75a2-4221-82f0-fbf71c270f72)
+![image](https://github.com/user-attachments/assets/3cd4143f-8174-48e4-966b-6d4ddcd8990a)
+Attacker Machine Ping is working
+![image](https://github.com/user-attachments/assets/0fc3821f-402b-4b76-9bb0-f2bec5926478)
+![image](https://github.com/user-attachments/assets/a31eb6bd-20ec-486c-adf7-258279ac39ec)
+Service that can be attacked
+### Task 1.1 - Metasploit Attack
+- Exploit: `auxiliary/scanner/ssh/ssh_login`
+- Target: Metasploitable3 @ `192.168.100.112`
+- Credential: `vagrant:vagrant`
+- Result: Shell access gained (proof in screenshots)
+![image](https://github.com/user-attachments/assets/6d7402aa-f4d8-4ebe-a320-6f735fdef009)
+
+### Task 1.2 - Python Brute-Force Script
+- Wrote custom script using `paramiko`
+- Tried usernames: `admin, root, test, user, vagrant`
+- ✅ Successfully logged in with `vagrant`
+- 📸 Screenshot of failures and success included
+![image](https://github.com/user-attachments/assets/d43b43a0-7dff-4821-90aa-92d0f0fd3b27)
+![image](https://github.com/user-attachments/assets/d05861ab-b0c4-4f2e-a8f3-586cf62d05f2)
