@@ -5,10 +5,7 @@
 - Group Number: 6
 - Members:
   - ALHATHAL, MOHAMMAD MAHER 202021080
-  - ALDAHASH, MOHAMMED KHALED 202156870
-  - ALZAHRANI, BASEL SAEED 202178710
-  - Work distribution:
-  - Worked together in all phases
+ 
 
 ---
 
